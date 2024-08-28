@@ -22,3 +22,5 @@ public class vovel {
         System.out.println("the output is"+count);
     }
 }
+//jnput      computer 
+//output 3
