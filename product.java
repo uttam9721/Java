@@ -6,7 +6,7 @@ public class product {
     public static void main(String[] args) {
         int a = 5;
         int b = 10;
-        mul(a,b);
+        mul(a,b);//in call by value always pass copy value it does not pass original value
     }
     
 }
