@@ -4,9 +4,9 @@ public class diagonal {
     public static int diagonalMatrix(int matrix[][]){
         int sum = 0;
         for (int i = 0; i < matrix.length; i++) {
-            // pd
+            // pd=primary diagonal;
             sum += matrix[i][i];
-            // sd
+            // sd = secondary diagonal;  i+j=n-1 = j=n-1-i
             if(i!=matrix.length-1-i)
             sum += matrix[i][matrix.length-i-1];
         }
