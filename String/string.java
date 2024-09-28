@@ -9,7 +9,7 @@ public class string {
         // String name = sc.nextLine();
         // System.out.print(name);
         String fullname = "uttammaurya";
-        System.out.print(fullname.length());
+        System.out.print(fullname.length());    
 
     }
     
