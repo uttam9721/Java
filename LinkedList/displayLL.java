@@ -1,10 +1,9 @@
 package LinkedList;
 
-public class pw {
+public class displayLL {
     public static class Node{
         int data;  // this is the value;
         Node next; //khud ka data or next ka address store ho;
-
 
         // this is constructor ;
         Node(int data){
@@ -23,10 +22,29 @@ public class pw {
         // 5->6->7->8->9
         a.next=b;
         b.next=c;
-        System.out.println(a.next);  //LinkedList.pw$Node@4df828d7
-        System.out.println(b.next.data);
-        // System.out.println(c);
+        c.next=d;
+        d.next=e;
+    //    System.out.print(a.data+ " -> ");
+    //    System.out.print(b.data+ " -> ");
+    //    System.out.print(c.data+ " -> ");
+    //    System.out.print(d.data+ " -> ");
+    //    System.out.print(e.data+ " -> ");
+    //    System.out.println("Null");
+    Node temp=a;
+    // System.out.println(temp.data);
+    // for (int i = 1; i <=5; i++) {
+    //     System.out.print(temp.data+ " -> ");
+    //     temp=temp.next;
         
+    // }
+    // System.out.println("null");
+     
+    while (temp!=null) {
+        System.out.print(temp.data+ " -> ");
+        temp=temp.next;
+        
+    }
+    System.out.println("Null");
        
         
         
