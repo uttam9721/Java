@@ -20,10 +20,10 @@ public class displayLL {
         Node e = new Node(9); // this is the new node
 
         // 5->6->7->8->9
-        a.next=b;
-        b.next=c;
-        c.next=d;
-        d.next=e;
+        // a.next=b;
+        // b.next=c;
+        // c.next=d;
+        // d.next=e;
     //    System.out.print(a.data+ " -> ");
     //    System.out.print(b.data+ " -> ");
     //    System.out.print(c.data+ " -> ");
