@@ -23,11 +23,13 @@
      Node d = new Node(8);
      Node e = new Node(800);
      Node f = new Node(900);
+     Node g = new Node(1900);
      a.next=b;
         b.next=c;
         c.next=d;
         d.next=e;
         e.next=f;
+        f.next=g;
     //  System.out.println(a.data);
     // Node temp = a;
     // while (temp != null) {
