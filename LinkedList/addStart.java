@@ -1,6 +1,15 @@
 package LinkedList;
 
 public class addStart {
+    public static void insertAtEnd(Node head,int val){
+        Node temp = new Node(val);
+        Node t=head;
+        while (t.next!=null) {
+            t=t.next;  
+        }
+        t.next=temp;
+
+    }
     public static class Node {
         int data;
         Node next;
@@ -21,6 +30,23 @@ public class addStart {
                 tail.next = temp;
                 tail = temp;
             }
+        }
+        // find index 
+        int getAt(int idx){
+            Node temp = head;
+            for (int i = 1; i < idx; i++) {
+                temp = temp.next;
+                
+            }
+            return temp.data;
+        }
+        void deleteAt(int idx){
+            Node temp = head;
+            for(int i =1;i<=idx-1;i++){
+                temp = temp.next;
+            }
+            temp.next=temp.next.next;
+            // size--
         }
 
         void display() {
@@ -49,9 +75,19 @@ public class addStart {
                 head=temp;
             }
         }
+
+        // add value in the given index
         void insertAt(int idx,int val){
             Node t = new Node(val);
             Node temp=head;
+            if (idx==length()) {
+                addEnd(val);
+                return;
+                
+            }else if(idx==0){
+                addStart(val);
+            }
+    
             for(int i =1;i<=idx-1;i++){
                 temp=temp.next;
             }
@@ -67,12 +103,26 @@ public class addStart {
         ll.addEnd(7);
         ll.addEnd(78);
         ll.addStart(0);
+
+
+        Node a = new Node(5);
+        Node b= new Node(6);
+        Node c = new Node(7);
+        Node d = new Node(8);
+
+        a.next=b;
+        b.next=c;
+        c.next=d;
         // ll.display();
-        ll.addStart(0);
-        ll.insertAt(2,100);
+        // ll.addStart(0);
+        // ll.insertAt(3,100);
+        insertAtEnd(a,88);
+        // ll.display(a);
+        ll.deleteAt(6);
         ll.display();
-        
+        // System.out.println(ll.tail.data);
         // System.out.println(ll.length());
+        // System.out.println(ll.getAt(3));
     }
     
 }
