@@ -4,18 +4,20 @@ public class Basic {
 
     public static void main(String[] args) {
         Stack<Integer> st = new Stack<>();
+        System.out.println(st.isEmpty());
         // push 
         st.push(1);
-        st.push(2);
-        st.push(3);
-        st.push(4);
-        st.push(5);
-        st.push(6);
+        // st.push(2);
+        // st.push(3);
+        // st.push(4);
+        // st.push(5);
+        // st.push(6);
 
-        // peek
+        // // peek
         System.out.println(st.peek());
         System.out.println(st);
-        st.pop();
-        System.out.println(st);
+        // st.pop();
+        // System.out.println(st);
+        // System.out.println(st.size());
     }
 }
