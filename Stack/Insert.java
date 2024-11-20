@@ -19,8 +19,7 @@ public class Insert {
         int x =7;
         Stack<Integer> temp = new Stack<>();
         while (st.size()>idx) {
-            temp.push(st.pop()); 
-            
+            temp.push(st.pop());    
         }
         st.push(x);
         while (temp.size()>0) {
