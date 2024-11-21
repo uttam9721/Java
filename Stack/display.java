@@ -21,7 +21,7 @@ public class display {
         st.push(5);
         // System.out.print(st);
         displayRec(st);
-        displayRec(st);
+        // displayRec(st);
         // System.out.print(st);
         // System.out.println(st);
 
