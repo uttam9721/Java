@@ -19,6 +19,7 @@ public class display {
         st.push(3);
         st.push(4);
         st.push(5);
+        st.push(6);
         // System.out.print(st);
         displayRec(st);
         // displayRec(st);
