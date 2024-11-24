@@ -15,6 +15,7 @@ public class ReverseStack {
             
         }
         System.out.println(rev);
+        System.out.println(rev);
         
     }
     
