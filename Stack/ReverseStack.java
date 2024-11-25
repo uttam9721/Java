@@ -12,6 +12,7 @@ public class ReverseStack {
         Stack<Integer> rev =new Stack<> ();
         while (s.size()>0) {
             rev.push(s.pop());
+            rev.push(s.pop());
             
         }
         System.out.println(rev);
