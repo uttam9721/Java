@@ -10,7 +10,7 @@ public class LargestString {
         for (int i = 0; i < fruits.length; i++) {
             if(largest.compareTo(fruits[i]<0)){
                 largest=fruits[i];
-                // largest=fruits[i];
+                largest=fruits[i];
             }
         }
         System.out.println(largest);
