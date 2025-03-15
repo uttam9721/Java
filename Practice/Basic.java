@@ -194,3 +194,88 @@
 
     // }
 // }
+
+
+// Largest Number
+
+// public class Basic {
+//     public static int Largest(int arr[]){
+//         int largest=0;
+//         for (int i = 0; i < arr.length; i++) {
+//             if (largest<arr[i]) {
+//                 largest=arr[i];  
+//             }
+//         }
+//         return largest;
+//     }
+
+//     public static void main(String[] args) {
+//         int arr[]={10,20,30,5,25,60};
+//         System.out.println(Largest(arr));
+//     }
+// }
+
+// Binary Number
+// public class Basic {
+//     public static int binarySearch(int arr[],int key){
+//         int start=0;
+//         int end=arr.length-1;
+//         while (start<=end) {
+//             int mid=(start+end)/2;
+//             if(arr[mid]==key){
+//                 return mid;
+//             }if (arr[mid]<key) {
+//                 start=mid+1;
+                
+//             }else{
+//                 end = mid-1;
+//             }
+            
+//         }
+//         return -1;
+        
+//     }
+
+//     public static void main(String[] args) {
+//         int arr[]={2,4,6,8,10};
+//         int key=6;
+//         System.out.println(binarySearch(arr,key));
+//     }
+// }
+
+// public class Basic {
+//     public static void reverse(int arr[]){
+//         int first=0;
+//         int last = arr.length-1;
+//         while(first<last){
+//             int temp = arr[last];
+//             arr[last]=arr[first];
+//             arr[first]=temp;
+//             first++;
+//             last--;
+//         }
+//     }
+
+//     public static void main(String[] args) {
+//         int arr[]={1,2,5,6};
+//         reverse(arr);
+//         for (int i = 0; i < arr.length; i++) {
+//             System.out.print(arr[i]+" ");
+//         }
+//     }
+// }
+
+
+// String 
+import java.util.*;
+public class Basic {
+
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        // String str = "Uttam maurya";
+        // String str=sc.next();
+        String str1=sc.nextLine();
+        // System.out.println(str);
+        System.out.println(str1.length());
+    }
+}
