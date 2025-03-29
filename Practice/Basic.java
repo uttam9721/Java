@@ -266,16 +266,23 @@
 // }
 
 
-// String 
-import java.util.*;
-public class Basic {
+// // String 
+// import java.util.*;
+// public class Basic {
 
-    public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-        // String str = "Uttam maurya";
-        // String str=sc.next();
-        String str1=sc.nextLine();
-        // System.out.println(str);
-        System.out.println(str1.length());
-    }
-}
+//     public static void main(String[] args) {
+//         // Scanner sc =new Scanner(System.in);
+//         String str = "Uttam Maurya";
+//         // String str1 = "Nitin Maurya";
+//         // String str=sc.next();
+//         // String str1=sc.nextLine();
+//         // System.out.println(str);
+//         // System.out.println(str.length());
+//         // System.out.println(str.charAt(0));
+//         // System.out.println(str.indexOf('U'));
+//         // System.out.println(str.compareTo(str1));
+//         // System.out.println(str.toUpperCase());
+//         // System.out.println(str.concat(str1));
+//         System.out.println();
+//     }
+// }
