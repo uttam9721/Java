@@ -72,6 +72,7 @@ public class Nested {
                 System.out.print("*");
             }
             System.out.println();
+            // System.out.println();
         }
     }
 }
