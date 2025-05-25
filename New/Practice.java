@@ -26,7 +26,6 @@ public class Practice {
                 System.out.print("("+curr+","+arr[j]+")");  
             }
             System.out.println();
-            // System.out.println();
         }
     }
 }
