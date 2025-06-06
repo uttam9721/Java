@@ -40,6 +40,18 @@ public class Practice{
         tail.next=newNode;
         tail=newNode;
     }
+    void add(int idx,int data){
+        Node newNode = new Node(data);
+        Node temp = head;
+        int i=0;
+        while (i<idx-1) {
+            temp=temp.next;
+            return;
+            
+        }
+        newNode.next=temp.next;
+        temp.next=newNode;
+    }
 
     public static void main(String[] args) {
         Practice ll = new Practice();
@@ -47,6 +59,7 @@ public class Practice{
         ll.addFirst(1);
         ll.addLast(3);
         ll.addLast(4);
+        ll.add(1, 10);
         display();
     }
 }
