@@ -52,6 +52,14 @@ public class Practice{
         newNode.next=temp.next;
         temp.next=newNode;
     }
+    void remove(){
+        head=head.next;
+    }
+    void last(){
+        // Node newNode = new Node()
+        tail.next = null;
+        
+    }
 
     public static void main(String[] args) {
         Practice ll = new Practice();
@@ -60,6 +68,7 @@ public class Practice{
         ll.addLast(3);
         ll.addLast(4);
         ll.add(1, 10);
+        // ll.remove();
         display();
     }
 }
