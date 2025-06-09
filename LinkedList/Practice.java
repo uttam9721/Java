@@ -57,7 +57,6 @@ public class Practice{
     }
     void last(){
         // Node newNode = new Node()
-        // Node newNode = new Node()
         tail.next = null;
 
     }
