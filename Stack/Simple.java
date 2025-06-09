@@ -8,6 +8,8 @@ public class Simple {
         st.push(2);
         st.push(3);
         System.out.println(st);
+        st.pop();
+        System.out.println(st);
         
     }
     
