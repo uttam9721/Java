@@ -11,8 +11,8 @@ public class LargestNumber {
         return largest;
     }
     public static void main(String[] args) {
-        int arr[]={10,20,5,60};
-        System.out.println("largest value"+ largest(arr));
+        int arr[]={10,20,5,60,99};
+        System.out.println("largest value "+ largest(arr));
     }
     
 }
